@@ -9,7 +9,7 @@ Hello, this is my portfolio version 2. I'll update if I have more things to show
 Due to privacy reasons, I didn't put my credentials on my PHPMailer code. So the contact form does NOT work. Sorry. I need more secure and private server to upload such information. With my credentials, it works on my localhost, except that I can't customize the sender address. Other than that, it sends me a mail I sent from the contact form.
 
 ## Progress
-Finished index, resume, and contact pages. Working on some projects to add to Portfolio page. Will remove and adjust things. (June 21, 2020)
+Finished adding the explanation of project 1 on Portfolio page. Adding a language selection button for Korean pages and an option to enlarge a photo on Portfolio. (June 22th, 2020)
 
 ## Issues
 It works now! (June 21, 2020)
