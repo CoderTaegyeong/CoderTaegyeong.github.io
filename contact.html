@@ -25,14 +25,26 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/langmenu.css">
+    <script src="js/langmenu.js"></script>
   </head>
-  <body>
 
-    <div class="KW_progressContainer">
-      <div class="KW_progressBar">
-
-      </div>
+  <!-- Get the current page and load the correct page with the language the user selected -->
+  <body onload="currentLang()">
+    <div class="langmenu-container">
+       <button class="langsel-button" title="Show/Hide menu" aria-label="Select Language" aria-expanded="false" aria-controls="langsel-dropdown">
+       <span aria-hidden="true" class="icon-globe"></span>
+       </button>
+       <div class="langmenu">
+          <form action="" class="langsel-form">
+             <select name="langsel-sel" id="langsel-sel" class="langsel-m" onchange="changeLang()">
+                <option lang="english" value="en">English</option>
+                <option lang="korean" value="kr">한국어</option>
+             </select>
+          </form>
+       </div>
     </div>
+
     <div class="page">
     <nav id="colorlib-main-nav" role="navigation">
       <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
