@@ -26,4 +26,4 @@ It works now! (June 21, 2020)
 * Bootstrap 3 template from https://colorlib.com/wp/template/beckham/
 * PHPMailer Gmail SMTP Code from https://alexwebdevelop.com/phpmailer-tutorial/
 * PHPMailer https://github.com/PHPMailer/PHPMailer
-* LangMenu library provided by Blackbeard Softwork
+* LangMenu library provided by Blackbeard Softworks
