@@ -9,7 +9,7 @@ Hello, this is my portfolio version 2. I'll update if I have more things to show
 Due to privacy reasons, I didn't put my credentials on my PHPMailer code. So the contact form does NOT work. Sorry. I need more secure and private server to upload such information. With my credentials, it works on my localhost, except that I can't customize the sender address. Other than that, it sends me a mail I sent from the contact form.
 
 ## Progress
-Finished adding a language selection button for Korean pages. Considering adding an option to enlarge photos. (June 22th, 2020)
+Finished adding a language selection button for Korean pages. Considering adding an option to enlarge photos, and working on Korean pages. (June 22th, 2020)
 
 ## Issues
 It works now! (June 21, 2020)
