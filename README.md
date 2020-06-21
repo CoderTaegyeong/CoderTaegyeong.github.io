@@ -1,5 +1,6 @@
 # codertaegyeong.github.io
 [![HitCount](http://hits.dwyl.com/CoderTaegyeong/codertaegyeonggithubio.svg)](http://hits.dwyl.com/CoderTaegyeong/codertaegyeonggithubio)
+
 [한국어](README-ko.md)
 
 Hello, this is my portfolio version 2. I'll update if I have more things to show you. I welcome all advices. :)
