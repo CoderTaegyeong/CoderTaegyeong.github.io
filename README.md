@@ -13,8 +13,8 @@ Finished index, resume, and contact pages. Working on some projects to add to Po
 It works now! (June 21, 2020)
 
 ## Original Sources
-Bootstrap 3 template from https://colorlib.com/wp/template/beckham/
+* Bootstrap 3 template from https://colorlib.com/wp/template/beckham/
 
-PHPMailer Gmail SMTP Code from https://alexwebdevelop.com/phpmailer-tutorial/
+* PHPMailer Gmail SMTP Code from https://alexwebdevelop.com/phpmailer-tutorial/
 
-PHPMailer https://github.com/PHPMailer/PHPMailer
+* PHPMailer https://github.com/PHPMailer/PHPMailer
