@@ -11,7 +11,7 @@ Due to privacy reasons, I didn't put my credentials on my PHPMailer code. So the
 There's an option for Korean now. Click the global icon on the left-top to hide the language selector options, re-click to reveal it again.
 
 ## Progress
-Almost finished, but I think I need more projects to put in. I'm going to put just one or two more. (June 22th, 2020)
+Almost finished, but I think I need more projects to put in. I'm going to make just one or two more. (June 22th, 2020)
 
 ## Issues
 There are no issues yet.
