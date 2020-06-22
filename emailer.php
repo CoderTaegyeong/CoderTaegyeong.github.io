@@ -65,7 +65,6 @@ try {
 
    /* Finally send the mail. */
    $mail->send();
-   /* Warning: Remove or comment the line below in prod else you'll leak info */
    echo "Your message has been sent to my email. Thank you. I'll get back to you soon! :)";
 }
 catch (Exception $e)
