@@ -14,7 +14,7 @@ There's an option for Korean now. Click the global icon on the left-top to hide 
 Almost finished, but I think I need more projects to put in. I'm going to put just one or two more. (June 22th, 2020)
 
 ## Issues
-I fixed the issue Korean button didn't work. And now I realized I didn't put a contact page in Korean. I thought I finished translating..
+There are no issues yet.
 
 ## Technologies
 * IDEs: Atom(for PHP and MySQL), Visual Studio Code v1.46 (for HTML, CSS, and JavaScript)
