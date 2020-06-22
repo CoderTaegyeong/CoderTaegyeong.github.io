@@ -20,7 +20,6 @@
 
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
-
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
@@ -106,15 +105,22 @@
                     </ul>
                   <h4>Progress</h4>
                     <ul>
-                        <li>Use Bootstrap template for overall website design. Black theme.</li>
-                        <li>Remove unnecessary social media buttons, address, phone number, and Google Maps.</li>
-                        <li>Add my three main qualities right below of the introduction. Add self-taught part on Education.
-                            Remove unnecessary animated graphs, replace them with more detailed explanations of what I can do.
+                        <li>Used Bootstrap template for overall website design. Black theme.</li>
+                        <li>Removed unnecessary social media buttons, address, phone number, and Google Maps.</li>
+                        <li>Added my three main qualities right below of the introduction. Added self-taught part on Education.
+                            Removed unnecessary animated graphs, replaced them with more detailed explanations of what I can do.
                         </li>
-                        <li>Use PHPMailer codes to enable sending emails on contact form because it's more secure than simple PHP codes.</li>
-                        <li>Go to Google API page and get authenticated by OAuth2 to use PHPMailer OAuth2 code.</li>
-                        <li>Use XAMPP localhost server to test the contact form. It works but can't customize the sender address.
-                            Add "AddReplyTo()" function to substitute "setFrom()" function to display the sender's address.
+                        <li>Used PHPMailer codes to enable sending emails on contact form because it's more secure than simple PHP codes.
+                          Downloaded PHPMailer through Composer.
+                        </li>
+                        <li>SMTP servers are mostly paid services, so I used Google's SMTP since it's free. Went to Google Developer Console page,
+                          made a project called "PHPMailer", enabled Gmail API. I made a new client ID, put "http://localhost/phpmailer/get_oauth_token.php".
+                          I put my credentials in get_oauth_token.php file, ran it, got my refresh token, and applied to PHPMailer OAuth2 code. 
+                        </li>
+                        <li>Used XAMPP localhost server to test the contact form. It worked but can't customize the sender address.
+                            Added "AddReplyTo()" function to substitute "setFrom()" function to display the sender's address.
+                        </li>
+                        <li>Copied .html files to the folder "kr" to make Korean translated pages. While making Korean pages, I made a languages selector on the left-top of the index.
                         </li>
                     </ul>
 	            </div>
@@ -188,8 +194,8 @@
     <script src="js/scrollax.min.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script> -->
     <script src="js/main.js"></script>
     
   </body>
