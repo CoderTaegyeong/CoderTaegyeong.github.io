@@ -11,11 +11,11 @@ function changeLang(){
 	var lang = langsel.options[langsel.selectedIndex].value;
 	console.log(url);
 	if (lang == "kr"){
-		url.splice(url.length-1,0,"kr");
+		url.splice(url.length-1,0,"ko");
 		console.log("Page language changed to Korean");
 		window.location.href = url.join("/");
 	} else {
-		var removeWhat = url.indexOf("kr");
+		var removeWhat = url.indexOf("ko");
 		url.splice(removeWhat,1);
 		console.log("Page language changed to English");
 		window.location.href = url.join("/");
@@ -29,9 +29,9 @@ function currentLang(){
 	menubtn.addEventListener('click', menu, false);
 	var url = window.location.href;
 	// Check if URL contains "kr" string
-	if(window.location.href.indexOf("kr") != -1){
+	if(window.location.href.indexOf("ko") != -1){
 		var langsel = document.getElementById("langsel-sel");
-		langsel.value = "kr";
+		langsel.value = "ko";
 	}
 }
 
