@@ -14,7 +14,7 @@ There's an option for Korean now. Click the global icon on the left-top to hide 
 Almost finished, but I think I need more projects to put in. I'm going to put just one or two more. (June 22th, 2020)
 
 ## Issues
-There are no issues yet.
+There was a language problem because I didn't change all lang values to "ko" properly. I'll fix it soon. Sorry.
 
 ## Technologies
 * IDEs: Atom(for PHP and MySQL), Visual Studio Code v1.46 (for HTML, CSS, and JavaScript)
