@@ -3,7 +3,7 @@
 
 [한국어](README-ko.md)
 
-Hello, this is my portfolio version 2. I'll update if I have more things to show you. I welcome all advices. :)
+Hello, this is my portfolio version 2. I'll update if I have more things to show you. I welcome all advices. Send through my email address, please.(not via contact form) :)
 
 ## Notice
 Due to privacy reasons, I didn't put my credentials on my PHPMailer code. So the contact form does NOT work. Sorry. I need more secure and private server to upload such information. With my credentials, it works on my localhost, except that I can't customize the sender address. Other than that, it sends me a mail I sent from the contact form.
@@ -14,7 +14,7 @@ There's an option for Korean now. Click the global icon on the left-top to hide 
 Almost finished, but I think I need more projects to put in. I'm going to put just one or two more. (June 22th, 2020)
 
 ## Issues
-It works now! (June 21, 2020)
+There are no issues yet.
 
 ## Technologies
 * IDEs: Atom(for PHP and MySQL), Visual Studio Code v1.46 (for HTML, CSS, and JavaScript)
