@@ -10,7 +10,7 @@ function changeLang(){
 	var url = window.location.href.split("/");
 	var lang = langsel.options[langsel.selectedIndex].value;
 	console.log(url);
-	if (lang == "kr"){
+	if (lang == "ko"){
 		url.splice(url.length-1,0,"ko");
 		console.log("Page language changed to Korean");
 		window.location.href = url.join("/");
