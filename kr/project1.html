@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
   <head>
     <title>김태경의 포트폴리오</title>
     <meta charset="utf-8">
@@ -39,7 +39,7 @@
           <form action="" class="langsel-form">
              <select name="langsel-sel" id="langsel-sel" class="langsel-m" onchange="changeLang()">
                 <option lang="english" value="en">English</option>
-                <option lang="korean" value="kr">한국어</option>
+                <option lang="korean" value="ko">한국어</option>
              </select>
           </form>
        </div>
@@ -104,19 +104,19 @@
                     </ul>
                   <h4>실행 과정</h4>
                     <ul>
-                        <li>부트스트랩을 템플릿을 이용해 전체적인 디자인을 꾸몄음. 블랙 테마로.</li>
-                        <li>불필요한 소셜 미디어 버튼들을 제거. 주소, 폰 번호, 지도 같은 개인 정보를 넣는 란은 삭제함.</li>
-                        <li>이력서에서 짧은 자기 소개 밑에 세가지의 강점을 적고 학력 란에 독학한 기간도 적었음.
-                            기술 역량을 설명하는 파트에서 애니메이션이 들어간 그래프들을 지우고 상세하게 내가 가진 기술적 역량을 솔직하게 씀.
+                        <li>부트스트랩을 템플릿을 이용해 전체적인 디자인을 잡았다. 검은색 테마라 심플하면서도 세련된 느낌을 주는 Beckham 이라는 템플릿을 골랐다.</li>
+                        <li>불필요한 소셜 미디어 버튼들을 제거. 주소, 폰 번호, 지도 같은 개인 정보를 넣는 란은 삭제했다.</li>
+                        <li>이력서에서 짧은 자기 소개 밑에 세가지의 강점을 적고 학력 란에 독학한 기간도 적었다.
+                            기술 역량을 설명하는 파트에서 애니메이션이 들어간 그래프들을 지우고 상세하게 내가 가진 기술적 역량을 솔직하게 썼다.
                         </li>
-                        <li>간단한 PHP 코드로 하는 것보다 PHPMailer 라는 PHP 패키지를 이용해서 보내는 게 안전하므로 그 코드로 이메일을 보내도록 함. 패키지는 Composer 라는 패키지 매니저를 이용해 다운로드 받음.</li>
-                        <li>SMTP 서버 대부분이 유료이기 때문에 무료인 구글의 SMTP를 이용함. 구글 개발자 콘솔 페이지에서 PHPMailer 라는 이름의 프로젝트를 만들고 Gmail API를 켰다. 새 클라이언트 ID를 만들고 리다이렉트 URI에
-                          http://localhost/phpmailer/get_oauth_token.php 을 넣어줬다. get_oauth_token.php에 내 클라이언트 ID와 시크릿 키를 넣고 그 링크를 실행해서 리프레시 토큰을 가져오고 emailer.php에다 넣는다.
-                          PHPMailer OAuth2 코드에 적용했음. 이 방식을 굳이 선택한 이유는 내 구글 계정 정보를 코드에 직접 쓰지 않아도 되기 때문이었다.</li>
+                        <li>간단한 PHP 코드로 하는 것보다 PHPMailer 라는 PHP 패키지를 이용해서 보내는 게 안전하므로 그 코드로 이메일을 보내도록 하였다. 패키지는 Composer 라는 패키지 매니저를 이용해 다운로드 받았다.</li>
+                        <li>SMTP 서버 대부분이 유료이기 때문에 무료인 구글의 SMTP를 이용했다. 구글 개발자 콘솔 페이지에서 PHPMailer 라는 이름의 프로젝트를 만들고 Gmail API를 켰다. 새 클라이언트 ID를 만들고 리다이렉트 URI에
+                          http://localhost/phpmailer/get_oauth_token.php 을 넣어줬다. get_oauth_token.php에 내 클라이언트 ID와 시크릿 키를 넣고 그 링크를 실행해서 리프레시 토큰을 가져오고 emailer.php에다 넣었다.
+                          PHPMailer OAuth2 코드에 적용했다. 이 방식을 굳이 선택한 이유는 내 구글 계정 정보를 코드에 직접 쓰지 않아도 되기 때문이었다.</li>
                         <li>연락폼을 테스트 하기 위해 XAMPP 로컬호스트 서버를 켜고 해 보았다. 메일은 성공적으로 발신, 수신이 되지만 보내는 사람 이메일이 내가 넣은 지메일 주소로만 나왔다.
                             "AddReplyTo()" 함수를 넣어 "setFrom()"을 대신해 보내는 사람의 이메일 주소를 받아오도록 함.
                         </li>
-                        <li>html 페이지들을 kr 폴더에 따로 복사하여 한국어 페이지를 작업했다. 인덱스 페이지를 작업하면서 langmenu 라이브러리를 이용해서 언어 선택 버튼을 왼쪽 상단에 고정했다.</li>
+                        <li>HTML 페이지들을 "ko" 폴더에 따로 복사하여 한국어 페이지를 작업했다. 인덱스 페이지를 작업하면서 langmenu 라이브러리를 이용해서 언어 선택 버튼을 왼쪽 상단에 고정했다.</li>
                     </ul>
 	            </div>
 	          </div>
