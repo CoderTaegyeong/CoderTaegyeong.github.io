@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>김태경의 포트폴리오</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
+    <link rel="stylesheet" href="../css/aos.css">
+
+    <link rel="stylesheet" href="../css/ionicons.min.css">
+
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/langmenu.css">
+	<script src="../js/langmenu.js"></script>
+
+  </head>
+  <!-- Get the current page and load the correct page with the language the user selected -->
+  <body onload="currentLang()">
+    <div class="langmenu-container">
+       <button class="langsel-button" title="Show/Hide menu" aria-label="Select Language" aria-expanded="false" aria-controls="langsel-dropdown">
+       <span aria-hidden="true" class="icon-globe"></span>
+       </button>
+       <div class="langmenu">
+          <form action="" class="langsel-form">
+             <select name="langsel-sel" id="langsel-sel" class="langsel-m" onchange="changeLang()">
+                <option lang="english" value="en">English</option>
+                <option lang="korean" value="kr">한국어</option>
+             </select>
+          </form>
+       </div>
+    </div>
+
+    <div class="page">
+    <nav id="colorlib-main-nav" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+      	<div class="img" style="background-image: url(../images/coffee.png);"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">김태경</a></h1>
+              <ul>
+                <li><a href="index.html"><span><small>01</small>홈</span></a></li>
+                <li><a href="about.html"><span><small>02</small>이력서</span></a></li>
+                <li class="active"><a href="portfolio.html"><span><small>03</small>포트폴리오</span></a></li>
+                <li><a href="contact.html"><span><small>04</small>연락하기</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="colorlib-navbar-brand">
+                <a class="colorlib-logo" href="index.html">김태경의 포트폴리오</a>
+              </div>
+              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="ftco-section">
+        <div class="container mt-5">
+            <div class="profile ftco-animate">
+	            <div class="text">
+	              <h2 class="heading">포트폴리오 웹사이트</h2>
+                  <p>2020년 6월 12일부터 작업 중.</p>
+                  <p><a href="https://github.com/CoderTaegyeong/codertaegyeong.github.io">깃헙에서 보기</a></p>
+                  <h4>목표</h4>
+                    <p>심플하고 현대적인 포트폴리오 만들기</p>
+                  <h4>사용 기술</h4>
+                    <ul>
+                        <li>프론트엔드: HTML, CSS, JavaScript</li>
+                        <li>백엔드: PHP</li>
+                    </ul>
+                    </p>
+                  <h4>기능들</h4>
+                    <ul>
+                        <li>인덱스에서는 모든 페이지의 요약본을 볼 수 있어야 함.</li>
+                        <li>이력서에서는 사용자가 짧은 자기 소개, 학력, 기술역량을 볼 수 있도록 함.</li>
+                        <li>포트폴리오에서는 내가 넣은 프로젝트들을 한 눈에 볼 수 있고 하나씩 '자세히 보기' 버튼으로 설명을 읽을 수 있도록 함.</li>
+                        <li>연락하기에서는 연락 폼으로 사용자가 내게 이메일을 보낼 수 있고, 내가 그 메일을 받을 수 있어야 함.</li>
+                    </ul>
+                  <h4>실행 과정</h4>
+                    <ul>
+                        <li>부트스트랩을 템플릿을 이용해 전체적인 디자인을 꾸몄음. 블랙 테마로.</li>
+                        <li>불필요한 소셜 미디어 버튼들을 제거. 주소, 폰 번호, 지도 같은 개인 정보를 넣는 란은 삭제함.</li>
+                        <li>이력서에서 짧은 자기 소개 밑에 세가지의 강점을 적고 학력 란에 독학한 기간도 적었음.
+                            기술 역량을 설명하는 파트에서 애니메이션이 들어간 그래프들을 지우고 상세하게 내가 가진 기술적 역량을 솔직하게 씀.
+                        </li>
+                        <li>간단한 PHP 코드로 하는 것보다 PHPMailer 라는 PHP 패키지를 이용해서 보내는 게 안전하므로 그 코드로 이메일을 보내도록 함. 패키지는 Composer 라는 패키지 매니저를 이용해 다운로드 받음.</li>
+                        <li>SMTP 서버 대부분이 유료이기 때문에 무료인 구글의 SMTP를 이용함. 구글 개발자 콘솔 페이지에서 PHPMailer 라는 이름의 프로젝트를 만들고 Gmail API를 켰다. 새 클라이언트 ID를 만들고 리다이렉트 URI에
+                          http://localhost/phpmailer/get_oauth_token.php 을 넣어줬다. get_oauth_token.php에 내 클라이언트 ID와 시크릿 키를 넣고 그 링크를 실행해서 리프레시 토큰을 가져오고 emailer.php에다 넣는다.
+                          PHPMailer OAuth2 코드에 적용했음. 이 방식을 굳이 선택한 이유는 내 구글 계정 정보를 코드에 직접 쓰지 않아도 되기 때문이었다.</li>
+                        <li>연락폼을 테스트 하기 위해 XAMPP 로컬호스트 서버를 켜고 해 보았다. 메일은 성공적으로 발신, 수신이 되지만 보내는 사람 이메일이 내가 넣은 지메일 주소로만 나왔다.
+                            "AddReplyTo()" 함수를 넣어 "setFrom()"을 대신해 보내는 사람의 이메일 주소를 받아오도록 함.
+                        </li>
+                        <li>html 페이지들을 kr 폴더에 따로 복사하여 한국어 페이지를 작업했다. 인덱스 페이지를 작업하면서 langmenu 라이브러리를 이용해서 언어 선택 버튼을 왼쪽 상단에 고정했다.</li>
+                    </ul>
+	            </div>
+	          </div>
+          </div>
+
+          <!--Pagination-->
+	        <!-- <div class="row mt-5">
+	          <div class="col text-center">
+	            <div class="block-27">
+	              <ul>
+	                <li><a href="#">&lt;</a></li>
+	                <li class="active"><span>1</span></li>
+	                <li><a href="#">2</a></li>
+	                <li><a href="#">3</a></li>
+	                <li><a href="#">4</a></li>
+	                <li><a href="#">5</a></li>
+	                <li><a href="#">&gt;</a></li>
+	              </ul>
+	            </div>
+	          </div>
+	        </div> -->
+        </div>
+      </section>
+
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-5 text-center">
+              <div class="ftco-footer-widget mb-5">
+                <ul class="ftco-footer-social list-unstyled">
+                  <li class="ftco-animate"><a href="https://github.com/CoderTaegyeong"><span class="icon-github"></span></a></li>
+                </ul>
+              </div>
+              <div class="ftco-footer-widget">
+                <h2 class="mb-3">Contact Me</h2>
+                <p class="h3 email">taegyeongtgkim@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+
+              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true" style="color: red;"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      </div>
+
+    </div>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/jquery.stellar.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.animateNumber.min.js"></script>
+    <script src="../js/scrollax.min.js"></script>
+    <script src="../js/bootstrap-datepicker.js"></script>
+    <script src="../js/jquery.timepicker.min.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> -->
+    <!-- <script src="../js/google-map.js"></script> -->
+    <script src="../js/main.js"></script>
+
+  </body>
+</html>
