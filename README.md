@@ -11,7 +11,7 @@ Due to privacy reasons, I didn't put my credentials on my PHPMailer code. So the
 There's an option for Korean now. Click the global icon on the left-top to hide the language selector options, re-click to reveal it again.
 
 ## Progress
-I don't think I'll get any back-end job with this pooly-made portfolio. I'll be back after studying Java and put more stuff.(July 19th, 2020)
+I don't think I'll get any back-end job with this poorly-made portfolio. I'll be back after studying Java and put more stuff.(July 19th, 2020)
 
 ## Issues
 There are no issues yet.
