@@ -3,29 +3,4 @@
 
 [English](README.md)
 
-안녕하세요. 이 깃헙 페이지는 제 포트폴리오 두번째 버전입니다. 더 보여드릴 게 있으면 업데이트 할게요. 조언은 언제나 환영. :)
-
-## 공지사항
-개인 정보 보호를 위해 PHPMailer 코드 내에 개인정보(아이디, 비밀번호, 리프레시 토큰)는 빠져 있습니다. 그래서 포폴 내의 연락폼에서는 이메일을 보내실 수 없어요. 보내는 사람의 이메일이 제 지메일 주소로 나오는 걸 빼면 로컬호스트에서 잘 됩니다.
-그걸 보완하기 위해 AddReplyTo를 이용해서 보내는 사람의 이메일 주소는 볼 수가 있어요. 검색해 보니 Gmail SMTP로 하면 등록한 제 지메일 주소 말고는 메일을 못 보내는 것 같더라고요.
-
-이제 한국어로 보실 수 있도록 언어 선택 버튼이 생겼습니다. 지구 모양 아이콘을 누르면 옵션을 숨길 수 있고 재클릭 시 옵션이 다시 활성화 돼요.
-
-## 진행과정
-이런 포트폴리오로는 백엔드 개발자로 지원하는 건 택도 없을 것 같아서 자바를 공부한 다음 나중에 보완하겠습니다.(2020년 7월 19일)
-
-## 문제들
-현재 어떤 문제도 없습니다.
-
-## 개발 환경
-
-* IDE: Atom(for PHP and MySQL), Visual Studio Code v1.46 (for HTML, CSS, and JavaScript)
-* 사용 언어: HTML5, CSS3, PHP(v7.4.2), JavaScript
-* 패키지 버전: Composer v1.10.7, PHPMailer v6.1.6
-* 프로그램: XAMPP v7.4.2
-
-## 원 코드 출처
-* Bootstrap 3 template from https://colorlib.com/wp/template/beckham/
-* PHPMailer Gmail SMTP Code from https://alexwebdevelop.com/phpmailer-tutorial/
-* PHPMailer https://github.com/PHPMailer/PHPMailer
-* LangMenu library provided by Blackbeard Softworks
+제가 1년 넘게 코딩을 공부했지만 저에게 맞지 않는 것 같아 그 길을 포기하고 새로운 진로를 걷고 있습니다. 언젠가 이 계정을 지우겠지만 그 때까지는 이 프로젝트도 냅두려고 합니다.
